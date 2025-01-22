@@ -6,7 +6,8 @@ int main(){
     {
         printf("Valid");
     }
-    else("Invalid");
+    else
+    ("Invalid");
     return 10;
     
 }

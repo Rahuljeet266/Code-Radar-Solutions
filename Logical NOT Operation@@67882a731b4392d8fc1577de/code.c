@@ -8,4 +8,4 @@ int main(){
     }
     else
     printf("False");
-}   return 10;
+}   return 0;

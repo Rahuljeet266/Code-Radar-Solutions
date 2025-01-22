@@ -5,8 +5,9 @@ int main(){
     if (num_1>num_2)
     {
         printf("True");
+    }
     else
         printf("False");
-    }
+    
     return 10;
 }

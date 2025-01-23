@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()[
+int main(){
     int a;
     int cnt=0;
     scanf("%d",&a);
@@ -21,4 +21,4 @@ int main()[
 
     }
     return 10;
-]
+}

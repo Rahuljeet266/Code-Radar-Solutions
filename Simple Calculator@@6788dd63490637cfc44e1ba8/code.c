@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a,b,c,d;
-    scanf("%d %d %d",&a,&b,&c);
+    int a,b,d;
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+
     if (c== +)
     {
         d=a+b;

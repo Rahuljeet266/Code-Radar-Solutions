@@ -9,7 +9,7 @@ int main(){
     }
     else
     {
-        for(int i=2;i<=n;i++)
+        for(int i=2;i<=a;i++)
         {
             cnt++;
             

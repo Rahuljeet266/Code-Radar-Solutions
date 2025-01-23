@@ -17,8 +17,12 @@ int main(){
     }
     if(cnt>=2)
     {
-        printf("Prime");
+        printf(" Not Prime");
 
+    }
+    else if (cnt = 1)
+    {
+        printf("Prime");
     }
     return 10;
 }

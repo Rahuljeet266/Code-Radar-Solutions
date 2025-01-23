@@ -10,11 +10,10 @@ int main(){
     {
         printf("Loss");
     }
-    else if (a==b)
+    else  
     {
         printf("No Profit or No Loss");
     }
-    else 
-    printf("Enter correct input");
+    
     return 10;
 }

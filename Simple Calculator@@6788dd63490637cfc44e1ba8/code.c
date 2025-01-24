@@ -24,7 +24,9 @@ int main(){
     {
         printf("%d",div)
     }
-    else
-    printf("Error");
+    else{
+        
+        printf("Error");
+    }
     return 10;
 }

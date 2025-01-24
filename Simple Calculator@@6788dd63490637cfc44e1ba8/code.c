@@ -18,7 +18,7 @@ int main(){
     }
     else if(c=='*')
     {
-        printf("%",mult);
+        printf("%d",mult);
     }
     else if(c=='/')
     {

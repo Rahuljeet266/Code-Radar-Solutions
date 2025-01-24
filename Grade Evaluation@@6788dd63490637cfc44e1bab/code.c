@@ -22,7 +22,7 @@ int main(){
     {
         printf("Fail");
     }
-    else
-    printf("Invalid Input");
-    return 10;
+    else{
+    printf("Invalid Input");}
+    return 0;
 }

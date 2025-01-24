@@ -22,10 +22,9 @@ int main(){
     }
     else if(c=='/')
     {
-        printf("%d",div)
+        printf("%d",div);
     }
-    else{
-        
+    else{ 
         printf("Error");
     }
     return 10;

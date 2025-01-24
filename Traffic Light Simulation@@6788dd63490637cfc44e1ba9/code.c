@@ -4,7 +4,7 @@ int main(){
     scanf("%c",&ch);
     if(ch=='R')
     {
-        printf("Stop");
+        printf("stop");
     }
     else if(ch=='G')
     {

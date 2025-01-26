@@ -31,4 +31,5 @@ int main(){
         }
     }
     printf("%d",sec_large);
+    return 10;
 }

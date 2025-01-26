@@ -27,9 +27,9 @@ int main(){
             {
                 sec_large=ar[i];
             }
-            else
-            printf("-1");
         }
+        else
+        printf("-1")
     }
     printf("%d",sec_large);
     return 10;

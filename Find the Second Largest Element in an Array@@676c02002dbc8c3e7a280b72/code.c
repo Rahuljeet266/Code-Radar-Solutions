@@ -29,6 +29,6 @@ int main(){
             }
         }
     }
-    printf("\n%d",sec_large);
+    printf("%d",sec_large);
     return 10;
 }

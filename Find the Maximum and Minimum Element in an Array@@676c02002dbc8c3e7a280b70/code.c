@@ -1,5 +1,5 @@
 #include <stdio.h>
-int miain(){
+int main(){
     int ar[10];
     int n;
     int i;

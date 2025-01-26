@@ -30,6 +30,6 @@ int main(){
             }
         }
     }
-    printf("%d",sec_large);
+    printf("\n%d",sec_large);
     return 10;
 }

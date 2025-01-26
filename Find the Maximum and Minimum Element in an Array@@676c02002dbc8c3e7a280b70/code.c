@@ -6,6 +6,10 @@ int main(){
     int large= -9999;
     int small=9999;
     scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&ar[i]);
+    }
     for (i=0;i<n;i++)
     {
         if(ar[i]<small)

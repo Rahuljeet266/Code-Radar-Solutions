@@ -26,11 +26,11 @@ int main(){
             if(ar[i]>sec_large)
             {
                 sec_large=ar[i];
+                printf("%d",&sec_large);
             }
         }
+        else
+        printf("-1");
     }
-    else 
-    printf("-1");
-    printf("%d",sec_large);
     return 10;
 }

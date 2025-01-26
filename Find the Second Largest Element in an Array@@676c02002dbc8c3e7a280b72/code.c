@@ -21,7 +21,7 @@ int main(){
     }
     for (i=0;i<n;i++)
     {
-        if(i!=pos)
+        if(i!=pos1)
         {
             if(ar[i]>sec_large)
             {

@@ -29,7 +29,7 @@ int main(){
             }
         }
         else
-        printf("-1")
+        printf("-1");
     }
     printf("%d",sec_large);
     return 10;

@@ -6,7 +6,6 @@ int main(){
     int large=-999;
     int sec_large=-9999;
     int pos1=0;
-    int pos2=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -22,7 +21,7 @@ int main(){
     }
     for (i=0;i<n;i++)
     {
-        if(pos1!=large)
+        if(i!=pos)
         {
             if(ar[i]>sec_large)
             {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int i;
-    int ar[1000];
+    int ar[100];
     int n;
     int cnt_ev=0;
     int cnt_odd=0;

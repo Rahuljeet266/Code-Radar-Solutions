@@ -2,30 +2,28 @@
 int main(){
     int a,b;
     char c;
-    int sm,diff,mult,div;
-    sm=a+b;
-    diff=a-b;
-    mult=a*b;
-    div=a/b;
     scanf("%d %d %c",&a,&b,&c);
-    if (c=='+')
+switch(a,b,c){
+    case '+':
+    printf("%d",a+b);
+    break;
+    case '-':
+    printf("%d",a-b);
+    break;
+    case '*':
+    printf("%d",a*b);
+    break;
+    case '/':
+    if(b>0)
     {
-        printf("%d",sm);
+        printf("%d",a/b);
     }
-    else if(c=='-')
-    {
-        printf("%d",diff);
-    }
-    else if(c=='*')
-    {
-        printf("%d",mult);
-    }
-    else if(c=='/')
-    {
-        printf("%d",div);
-    }
-    else{ 
-        printf("Error");
-    }
+    else
+    printf("error");
+    break;
+    default:
+    printf("error");
+    break;
+}
     return 10;
 }

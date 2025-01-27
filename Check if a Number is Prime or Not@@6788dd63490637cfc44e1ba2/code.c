@@ -16,11 +16,11 @@ int main(){
             
         }
     }
-    if (cnt=1)
+    if (cnt>2)
     {
         printf("Prime");
     }
-    else if (cnt>1)
+    else
     {
         printf("Not Prime");
     }

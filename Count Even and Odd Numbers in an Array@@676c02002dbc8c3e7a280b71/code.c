@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(){
     int i;
-    int ar[100];
+    int ar[1000];
     int n;
     int cnt_ev=0;
     int cnt_odd=0;
-    int num;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {

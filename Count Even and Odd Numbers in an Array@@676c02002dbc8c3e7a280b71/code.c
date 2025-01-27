@@ -13,7 +13,7 @@ int main(){
      {
         cnt_ev++;
      }
-     else
+     else if(ar[i]%2!=0)
      cnt_odd++;
     }
     printf("%d %d",cnt_ev,cnt_odd);

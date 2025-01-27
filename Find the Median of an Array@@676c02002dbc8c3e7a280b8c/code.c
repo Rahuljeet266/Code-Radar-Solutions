@@ -2,7 +2,7 @@
 int main(){
     int ar[100];
     int n;
-    int sm=0;
+    int med;
     int pos=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -13,12 +13,12 @@ int main(){
     {
     if(ar[i]%2==0)
     {
-        sm=n/2;
+        med=n/2;
         pos=i;
     }
     else if(ar[i]%2!=0)
     {
-      sm=(n+1)/2;
+      med=(n+1)/2;
       pos=i;
     }
     else

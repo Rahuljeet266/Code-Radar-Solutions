@@ -16,7 +16,7 @@ int main(){
             
         }
     }
-    if (cnt<2)
+    if (cnt==2)
     {
         printf("Prime");
     }

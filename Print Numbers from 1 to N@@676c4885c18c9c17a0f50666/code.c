@@ -7,5 +7,5 @@ int main(){
     {
         printf("%d",i);
     }
-    return 10;
+    return 0;
 }

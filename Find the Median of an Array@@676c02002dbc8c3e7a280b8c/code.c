@@ -21,6 +21,8 @@ int main(){
       sm=(n+1)/2;
       pos=i;
     }
+    else
+    printf("Invalid")
     printf("%d",pos);
     return 10;
     }

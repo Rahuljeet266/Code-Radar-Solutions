@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-     if(ar[i]&2==0)
+     if(ar[i]%2==0)
      {
         cnt_ev++;
      }

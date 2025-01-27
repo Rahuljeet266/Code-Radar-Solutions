@@ -8,7 +8,7 @@ int main(){
     int cnt_odd=0;
     for(i=0;i<a;i++)
     {
-        printf("%d",ar[i]);
+        scanf("%d",&ar[i]);
     }
 
     for(i=0;i<a;i++)

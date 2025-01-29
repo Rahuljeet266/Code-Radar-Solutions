@@ -1,11 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a,i;
-    scanf("%d",&a);
-    for(i=31;i>=0;i--)
-    {
-        printf("%d",(a>>i)&1)
-    }
-    
-    return 10;
+   int a;
+   scanf("%d",&a);
+   printf("%d",a & 1);
+   
 }

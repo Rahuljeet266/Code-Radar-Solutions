@@ -7,6 +7,11 @@ int main(){
         rem=n%10;
         n=n/10;
     }
-    printf("%d",rem);
+    if (n/rem==1)
+    {
+        printf("Set");
+    }
+    else
+    printf("Not Set");
     return 10;
 }

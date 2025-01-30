@@ -4,9 +4,9 @@ int main(){
     scanf("%d %d",&a,&b);
     if(a&(1<<a))
     {
-        printf('1');
+        printf("%d",1);
     }
     else
-    printf('0');
+    printf("%d",0);
     return 10;
 }

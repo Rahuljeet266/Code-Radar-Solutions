@@ -2,6 +2,6 @@
 int main(){
     char str[100];
     gets(str);
-    puts("You entered: ");
+    puts("You entered: %d",str);
     return 10;
 }

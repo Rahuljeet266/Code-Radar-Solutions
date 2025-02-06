@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a,rem,n,hex,num;
-    scanf("%d",a);
+    scanf("%d",&a);
     n=num;
     while (num>0)
     {

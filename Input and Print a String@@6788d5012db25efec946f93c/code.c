@@ -1,16 +1,10 @@
 #include <stdio.h>
+#include<string.h>
 int main(){
-    char ch;
-    char str[100];
-    ch=getchar();
-    while(ch!='*')
-    {
-        str[i]=ch;
-        i++;
-        ch=getchar();
-    }
-    str[i]='\0';
-    printf("You entered: %s",str);
+char str[100];
+gets(str);
+printf("You entered: %s",str);
+
    
     return 10;
 }

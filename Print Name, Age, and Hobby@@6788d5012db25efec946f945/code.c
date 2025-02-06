@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
-    int age;
-    char name,hobby;
-    scanf("%c %d",&name,&age);
-    scanf("%c",&hobby);
-    printf("Name: %c\nAge: %d\nHobby: %c",name ,age,hobby);
+   int age;
+   char str[50],str1[50];
+   scanf("%s %d %s",&str,&age,&str1);
+   printf("Name: %s\nAge: %d\nHobby: %s",str,age,str1);
     return 10;
 }

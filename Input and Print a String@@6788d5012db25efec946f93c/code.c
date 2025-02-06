@@ -10,7 +10,7 @@ int main(){
         ch=getchar();
     }
     str[i]='\0';
-    printf("%s",str);
+    printf("You entered: %s",str);
    
     return 10;
 }

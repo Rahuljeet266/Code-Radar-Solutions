@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
     char c='A';
-    int i,j;
-    for(i=65;i<=70;i++)
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=65;i<=n;i++)
     {
         for(j=65;j<=i;j++)
        { 

@@ -11,6 +11,6 @@ int main(){
        
     }
      printf("\n");
-    return 10;
+    return 0;
     
 }

@@ -5,6 +5,6 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     a=a|(1<<b);
-    return 10;
+    return 0;
 
 }

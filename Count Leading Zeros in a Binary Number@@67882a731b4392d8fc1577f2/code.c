@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 
-int countTrailingZeroes(int num) {
+int countLeadingZeroes(int num) {
     int count = 0;
+    int mask = 1 << 31;  // Mask with the leftmost bit set (for 32-bit integers)
 
-    while ((num & 1) == 0 && num != 0) {
+    while ((num & mask) == 0 && mask > 0) {
         count++;
-        num >>= 1;  // Right shift to check the next bit
+        mask >>= 1;  // Shift mask to the right
     }
 
     return count;
@@ -14,9 +15,9 @@ int countTrailingZeroes(int num) {
 
 int main() {
     int num;
-    printf("Enter a number: ");
     scanf("%d", &num);
 
-    printf("Trailing zeroes in binary: %d\n", countTrailingZeroes(num));
+    printf("%d", countLeadingZeroes(num));
     return 0;
 }
+

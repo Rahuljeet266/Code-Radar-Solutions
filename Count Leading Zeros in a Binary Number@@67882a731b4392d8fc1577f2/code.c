@@ -2,6 +2,8 @@
 
 
 int countLeadingZeroes(int num) {
+    if (num==0)
+    return 32;
     int count = 0;
     unsigned int mask = 1 << 31;  
 

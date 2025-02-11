@@ -17,6 +17,6 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    printf("Trailing zeroes in binary: %d\n", countTrailingZeroes(num));
+    printf(" %d\n", countTrailingZeroes(num));
     return 0;
 }

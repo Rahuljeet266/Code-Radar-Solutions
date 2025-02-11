@@ -1,23 +1,22 @@
 #include <stdio.h>
-int main(){
-    int a;
-    int b=1<<31;
-    itn cnt=0;
-    int num;
-    scanf("%d",&num);
-    if(num==0)
-    {
-        cnt =32;
-    }
-    else 
-    {
-        while(a&b==0)
-        {
-            cnt++;
-            b=b>>1;
-        }
-    }
-    printf("%d",cnt);
-    return 0;
+#include <stdio.h>
 
+int countTrailingZeroes(int num) {
+    int count = 0;
+
+    while ((num & 1) == 0 && num != 0) {
+        count++;
+        num >>= 1;  // Right shift to check the next bit
+    }
+
+    return count;
+}
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("Trailing zeroes in binary: %d\n", countTrailingZeroes(num));
+    return 0;
 }

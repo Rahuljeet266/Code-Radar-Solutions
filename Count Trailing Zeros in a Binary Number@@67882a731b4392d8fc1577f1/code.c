@@ -16,6 +16,6 @@ int main() {
     int num;
     scanf("%d", &num);
 
-    printf(" %d", countTrailingZeroes(num));
+    printf("%d", countTrailingZeroes(num));
     return 0;
 }

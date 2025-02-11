@@ -14,7 +14,7 @@ int main(){
         while(a&b==0)
         {
             cnt++;
-            b=1>>b;
+            b=b>>1;
         }
     }
     printf("%d",cnt);

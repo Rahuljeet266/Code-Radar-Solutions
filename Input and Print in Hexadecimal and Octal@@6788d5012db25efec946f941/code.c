@@ -7,7 +7,7 @@ int i;
 while(a!=0)
 {
     rem=a%8;
-    a=a\8;
+    a=a/8;
     b=b+a*i;
     i*=8;
 }

@@ -22,6 +22,18 @@ int main(){
         }
         printf("\n");
     }
+    for(i=1;i>=n-1;i++)
+    {
+        for(k=n-1;k<=1;k--)
+        {
+            printf(" ");
+        }
+        for(j=2*i-1;j<=1;j--)
+        {
+            printf("\n");
+        }
+        printf("\n");
+    }
     return 10;
     
 }

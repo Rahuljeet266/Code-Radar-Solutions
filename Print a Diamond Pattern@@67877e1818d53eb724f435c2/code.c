@@ -22,7 +22,7 @@ int main(){
         }
         printf("\n");
     }
-    for(i=1;i>=n-1;i++)
+    for(i=n-1;i<=1;i++)
     {
         for(k=n-1;k>=1;k--)
         {

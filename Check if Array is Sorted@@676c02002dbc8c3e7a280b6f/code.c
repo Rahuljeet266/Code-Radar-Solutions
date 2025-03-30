@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i,j,n;
+    int i,j,n,flag=0;
     int ar[100];
     int temp;
     scanf("%d",&n);

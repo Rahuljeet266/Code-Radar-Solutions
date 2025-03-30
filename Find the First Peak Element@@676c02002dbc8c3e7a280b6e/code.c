@@ -15,7 +15,7 @@ int main(){
         if (arr[i]>large)
         {
             large = arr[i];
-            
+            break;
         }
     }
     printf("%d",arr[i]);

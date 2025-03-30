@@ -12,7 +12,7 @@ int main(){
     large =arr[0];
     for (i=0;i<N;i++)
     {
-        if (arr[i]>large &&arr[i]>=ar[i+1] && arr[i]<=arr[i-1] )
+        if (arr[i]>large &&arr[i]>=arr[i+1] && arr[i]<=arr[i-1] )
         {
             large = arr[i];
           

@@ -10,12 +10,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     large =arr[0];
-    for (i=0;i<N;i++)
+    for (i=0;i<9N;i++)
     {
-        if (arr[i]>large)
+        if (arr[i]>large &&arr[i]>=ar[i+1] && arr[i]<=arr[i-1] )
         {
             large = arr[i];
-            break;
+          
         }
     }
     printf("%d",arr[i]);

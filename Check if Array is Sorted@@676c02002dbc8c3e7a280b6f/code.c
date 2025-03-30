@@ -17,8 +17,18 @@ int main(){
                   temp=ar[j];
                   ar[j]=ar[j+1];
                   ar[j+1]=temp;
+                  flag =1;
             }
         }
     }
-    printf("%d",ar[i]);
+    if (flag==1)
+    {
+        printf("Sorted");
+    }
+    else
+    {
+        printf("Not Sorted");
+    }
+    return 0;
+   
 }

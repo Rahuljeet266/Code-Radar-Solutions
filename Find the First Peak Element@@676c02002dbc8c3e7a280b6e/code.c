@@ -15,6 +15,7 @@ int main(){
         if (arr[i]>large)
         {
             large = arr[i];
+            i++;
             break;
         }
     }

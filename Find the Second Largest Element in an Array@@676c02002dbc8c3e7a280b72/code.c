@@ -28,9 +28,10 @@ int main(){
                 sec_large=ar[i];
             }
         }
-        else if (ar[i]==ar[i+1])
-        printf("-1");
+
     }
+            else if (ar[i]==ar[i+1])
+        printf("-1");
     printf("%d",sec_large);
     return -1;
 }

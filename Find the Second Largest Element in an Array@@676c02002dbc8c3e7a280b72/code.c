@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int ar[10];
     int n;
     int i;
+    int flag=0;
     int large=-999;
     int sec_large=-900;
     int pos1=0;
@@ -23,14 +24,30 @@ int main(){
     {
         if(i!=pos1)
         {
-            if(ar[i]>sec_large)
+            if(ar[i]>sec_large && ar[i]<ar[pos1])
             {
                 sec_large=ar[i];
             }
         }
-        else if (ar[i]==ar[i+1])
+        // else if (ar[i]==ar[i+1])
+        // printf("-1");
+
+    }
+    for(i=0;i<n;i++)
+    {
+        if (ar[i]==sec_large || ar[i]== large)
+        {
+            flag =1;
+        }
+        
+    }
+    if (flag==1)
+    {
         printf("-1");
     }
-    printf("%d",sec_large);
+    
+    else 
+    {printf("%d",sec_large);
+    printf("%d",large);}
     return -1;
 }

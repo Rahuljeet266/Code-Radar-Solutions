@@ -4,7 +4,7 @@ int main(){
     int n;
     int i;
     int large=-999;
-    int sec_large=-9999;
+    int sec_large=-900;
     int pos1=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -28,10 +28,9 @@ int main(){
                 sec_large=ar[i];
             }
         }
-
-    }
-            else if (ar[i]==ar[i+1])
+        else if (ar[i]==ar[i+1])
         printf("-1");
+    }
     printf("%d",sec_large);
     return -1;
 }

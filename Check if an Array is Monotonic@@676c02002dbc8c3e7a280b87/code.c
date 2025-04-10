@@ -5,6 +5,7 @@ int main(){
     int inc = 0;
     int dec = 0;
     int eq = 0;
+    int on = 0;
     scanf("%d",&n);
     for (i=0;i<n;i++)
     {
@@ -24,8 +25,12 @@ int main(){
         {
             eq = 1;
         }
+        else if(arr[i])
+        {
+            on = 1;
+        }
     }
-    if(inc == 1 || dec == 1 || eq == 1)
+    if(inc == 1 || dec == 1 || eq == 1 || on == 1)
     {
         printf("YES");
     }

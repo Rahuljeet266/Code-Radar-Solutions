@@ -14,7 +14,7 @@ int main(){
     {
         if (arr[i]!=0)
         {
-            temp = temp + arr[i]*pow(10,i);
+            temp = temp + arr[i] * pow(10,i);
         }
         if (temp = arr[i])
         {

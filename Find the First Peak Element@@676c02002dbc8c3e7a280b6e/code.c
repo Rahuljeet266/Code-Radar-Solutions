@@ -20,7 +20,11 @@ int main(){
             break;
             i++;
         }
+        else 
+        printf("-1");
+        break;
 
     }
-    return -1;
+    return 10;
+    
 }

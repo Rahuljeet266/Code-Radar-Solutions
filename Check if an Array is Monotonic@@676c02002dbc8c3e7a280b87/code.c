@@ -3,8 +3,7 @@
 int main(){
     int arr[10];
     int n,i;
-    int large = -9999;
-    in small = 9999;
+
     scanf("%d",&n);
     for (i=0;i<n;i++)
     {

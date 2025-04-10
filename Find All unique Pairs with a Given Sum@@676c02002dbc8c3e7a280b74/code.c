@@ -9,12 +9,12 @@ for(i=0;i<n;i++)
 {
     scanf("%d ",&arr[i]);
 }
-scanf("%d",&T);
+scanf("%d",&t);
 for (i=0;i<n;i++)
 {
     for (j=i+1;j<n;j++)
     {
-        if (i+j = T && i!=j)
+        if (i+j = t && i!=j)
         {
             printf("%d %d",i,j);
         }

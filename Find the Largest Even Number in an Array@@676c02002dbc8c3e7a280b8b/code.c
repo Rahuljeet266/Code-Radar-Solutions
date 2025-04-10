@@ -4,6 +4,7 @@ int main(){
     int arr[10];
     int n,i;
     int large = -9999;
+    int flag = 0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -14,12 +15,15 @@ int main(){
     {
         if (arr[i]>large && arr[i]%2==0)
         {
-            printf("%d",arr[i]);
+            flag = 1;
         }
-            else
-    printf("-1");
+
     }
-
-
+    if (flag == 1)
+    {
+        printf("%d",arr[i]);
+    }
+    else 
+    printf("-1");
 return 0;
 }

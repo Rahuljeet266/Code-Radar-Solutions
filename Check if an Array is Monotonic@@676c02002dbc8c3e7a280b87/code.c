@@ -20,7 +20,7 @@ int main(){
             inc = 1;
         }
     }
-    if(inc == 1 || dec == 1)
+    if(inc == 1 || dec == 1 || arr[i] == arr[i+1])
     {
         printf("YES");
     }

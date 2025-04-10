@@ -12,13 +12,15 @@ for(i=0;i<n-1;i++)
 {   
     if (arr[i]<arr[i+1])
     {
-        printf("Sorted");
+        
         i++;
     }
    
 }
-if (arr[i]>arr[i+1])
+if (arr[i]<arr[i+1])
 {
-    printf("Not Sorted");
-}return 10;
+    printf("Sorted");
+}
+else
+printf("Not Sorted");return 10;
 }

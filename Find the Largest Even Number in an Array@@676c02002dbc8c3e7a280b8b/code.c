@@ -13,10 +13,13 @@ int main(){
     large = arr[0];
     for(i=0;i<n;i++)
     {
-        if (arr[i]>large && arr[i]%2==0)
+        if (arr[i]%2 == 0)
+        {
+        if (arr[i]>large)
         {
             large = arr[i];
             flag = 1;
+        }
         }
 
     }

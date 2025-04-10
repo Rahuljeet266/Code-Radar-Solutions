@@ -25,7 +25,7 @@ int main(){
             eq = 1;
         }
     }
-    if(inc == 1 || dec == 1 || eq = 1)
+    if(inc == 1 || dec == 1 || eq == 1)
     {
         printf("YES");
     }

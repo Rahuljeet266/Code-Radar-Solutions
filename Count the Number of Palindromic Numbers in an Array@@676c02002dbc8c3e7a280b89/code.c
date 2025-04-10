@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<math.h>
 int main(){
     int arr[10];
     int n,i;

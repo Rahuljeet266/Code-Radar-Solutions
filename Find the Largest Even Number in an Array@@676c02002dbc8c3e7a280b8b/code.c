@@ -15,13 +15,14 @@ int main(){
     {
         if (arr[i]>large && arr[i]%2==0)
         {
+            large = arr[i];
             flag = 1;
         }
 
     }
     if (flag == 1)
     {
-        printf("%d",arr[i]);
+        printf("%d",large);
     }
     else 
     printf("-1");

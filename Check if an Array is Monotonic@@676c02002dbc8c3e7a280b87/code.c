@@ -2,10 +2,10 @@
 int main(){
     int arr[10];
     int n,i;
-    int inc = 0;
-    int dec = 0;
-    int eq = 0;
-    int on = 0;
+    int inc = 1;
+    int dec = 1;
+    int eq = 1;
+    int on = 1;
     scanf("%d",&n);
     for (i=0;i<n;i++)
     {
@@ -21,16 +21,9 @@ int main(){
         {
             inc = 1;
         }
-        else if(arr[i] == arr[i+1])
-        {
-            eq = 1;
-        }
-        else if(arr[i])
-        {
-            on = 1;
-        }
+
     }
-    if(inc == 1 || dec == 1 || eq == 1 || on == 1)
+    if(inc || dec)
     {
         printf("YES");
     }

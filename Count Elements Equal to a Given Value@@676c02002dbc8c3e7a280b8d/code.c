@@ -17,7 +17,7 @@ int main(){
         cnt++;
     }
  }
- printf("%d",K);
+ printf("%d",cnt);
  return 0;
 
 

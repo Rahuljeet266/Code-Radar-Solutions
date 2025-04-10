@@ -1,26 +1,26 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int arr[10];
-    int N,i;
-    int large =-999;
-    scanf("%d",&N);
-    for ( i=0;i<N;i++)
+    int arr[20];
+    int n,i;
+    int large = -9999;
+    int pos=0;
+    scanf("%d"&n);
+    for (i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf(\n"%d",&arr[i]);
     }
-    large =arr[0];
-    for (i=0;i<N;i++)
+    large = arr[0];
+    pos = 0;
+    for (i=0;i<n;i++)
     {
-        if (arr[i]>large &&arr[i]>=arr[i+1] && arr[i]<=arr[i-1] )
+        if (arr[i]>arr[i+1])
         {
-            large = arr[i];
-          
+            printf("%d",arr[i]);
+            break;
+            i++;
         }
+
     }
-    printf("%d",arr[i]);
     return -1;
-
-
-
 }

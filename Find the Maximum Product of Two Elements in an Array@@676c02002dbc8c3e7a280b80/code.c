@@ -3,11 +3,10 @@
 int main(){
     int arr[10];
     int n;
-    int i
+    int i;
     int large = -9999;
     int pos = 0;
     int sec_large = -9900;
-    int prod=1;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {

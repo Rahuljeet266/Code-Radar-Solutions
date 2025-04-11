@@ -13,20 +13,17 @@ int main(){
     {
         scanf("%d",&arr[i]);
     }
-    int abs_val = abs(arr[i]);
+    
     large = arr[0];
     for(i=0;i<n;i++)
     {
         if(arr[i]> large)
         {
             large = arr[i];
-            arr[i] = abs_val;
-            abs_val = large;
             pos = i;
         }
     }
     sec_large = arr[0];
-    int abs_val2 = abs(arr[i]);
     for(i=0;i<n;i++)
     {
         if(i!=pos)
@@ -34,8 +31,6 @@ int main(){
             if(arr[i]>sec_large)
             {
                 sec_large = arr[i];
-                arr[i] = abs_val2;
-                abs_val2 = sec_large;
             }
         }
     }

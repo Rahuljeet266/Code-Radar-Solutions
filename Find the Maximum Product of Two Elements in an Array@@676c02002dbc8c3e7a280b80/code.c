@@ -1,11 +1,13 @@
 // Your code here...
 #include<stdio.h>
+#include<stlib.h>
 int main(){
     int arr[10];
     int n;
     int i;
     int large = -9999;
     int pos = 0;
+    int abs(arr[i]) = arr[i];
     int sec_large = -9900;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -15,7 +17,7 @@ int main(){
     large = arr[0];
     for(i=0;i<n;i++)
     {
-        if(arr[i]> large && arr[i] == arr[-i])
+        if(arr[i]> large)
         {
             large = arr[i];
             pos = i;
@@ -26,7 +28,7 @@ int main(){
     {
         if(i!=pos)
         {
-            if(arr[i]>sec_large && arr[i] == arr[-1])
+            if(arr[i]>sec_large)
             {
                 sec_large = arr[i];
             }

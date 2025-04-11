@@ -7,13 +7,13 @@ int main(){
     int i;
     int large = -9999;
     int pos = 0;
-    int abs(arr[i]) = arr[i];
     int sec_large = -9900;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
+    int abs(arr[i]) = arr[i];
     large = arr[0];
     for(i=0;i<n;i++)
     {

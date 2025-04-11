@@ -16,21 +16,24 @@ int main(){
         {
             if(arr[i] == arr[j] && i!=j)
             {
+                printf("%d",arr[i]);
                 rep = 1;
-    
-             
+                break;
             }
-                else 
-                rep = 0;
 
         }
+        if(rep)
+        {
+            break;
+        }
     }
-    if(rep == 1)
+    if(!rep)
     {
-        printf("%d",arr[i]);
+        printf("-1");
     }
-    else 
-    printf("-1");
+    return 0;
+
+
 
 
     return 0;

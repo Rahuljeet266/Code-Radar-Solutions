@@ -21,7 +21,7 @@ int main(){
             pos = i;
         }
     }
-    sec_large = arr[0]
+    sec_large = arr[0];
     for(i=0;i<n;i++)
     {
         if(i!=pos)

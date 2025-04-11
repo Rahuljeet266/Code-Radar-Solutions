@@ -39,7 +39,7 @@ int main(){
             }
         }
     }
-    printf("%d",abs_val*abs_val2);
+    printf("%d",large*sec_large);
     return 0;
     
 

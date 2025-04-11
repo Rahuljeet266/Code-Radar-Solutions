@@ -15,7 +15,7 @@ int main(){
     large = arr[0];
     for(i=0;i<n;i++)
     {
-        if(arr[i]> large)
+        if(arr[i]> large && arr[i] == arr[-i])
         {
             large = arr[i];
             pos = i;
@@ -26,7 +26,7 @@ int main(){
     {
         if(i!=pos)
         {
-            if(arr[i]>sec_large)
+            if(arr[i]>sec_large && arr[i] == arr[-1])
             {
                 sec_large = arr[i];
             }

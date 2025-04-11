@@ -17,13 +17,20 @@ int main(){
             if(arr[i] == arr[j] && i!=j)
             {
                 rep = 1;
-                printf("%d",arr[i]);
-                break;
+    
+             
             }
                 else 
-    printf("-1");
+                rep = 0;
+
         }
     }
+    if(rep == 1)
+    {
+        printf("%d",arr[i]);
+    }
+    else 
+    printf("-1");
 
 
     return 0;
